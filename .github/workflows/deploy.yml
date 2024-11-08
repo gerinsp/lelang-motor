@@ -28,8 +28,8 @@ jobs:
         npm install
         composer install --no-dev --prefer-dist --optimize-autoloader
 
-    - name: Build assets
-      run: npm run production
+    - name: Run build
+      run: npm run build
 
     - name: Upload to Niagahoster via FTP
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
