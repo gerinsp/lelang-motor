@@ -38,7 +38,7 @@ jobs:
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./  # Direktori di GitHub untuk di-upload
-        server-dir: /public_html/  # Direktori tujuan di server Niagahoster
+        server-dir: /testdomain/  # Direktori tujuan di server Niagahoster
         exclude: |
           .git*
           .github*
